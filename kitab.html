@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Daftar Kitab - Majelis Qutbil Anfas</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/content.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+ <header>
+    <h1>Kitab</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="berita.html">Berita</a>
+      <a href="kitab.html">Kitab</a>
+      <a href="sholawat.html">Sholawat</a>
+      <a href="nadzom.html">Nadzom</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+  </header>
+<body>
+  <main>
+    <ul id="kitab-list"></ul>
+  </main>
+  <footer>&copy; 2025 Majelis Qutbil Anfas</footer>
+  <script src="js/script.js"></script>
+<script>
+  loadKitab('data/kitab.json', 'kitab-list');
+</script>
+
+</body>
+</html>

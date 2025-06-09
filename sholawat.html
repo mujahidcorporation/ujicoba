@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Sholawat - Majelis Qutbil Anfas</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/content.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<header>
+    <h1>Sholawat</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="berita.html">Berita</a>
+      <a href="kitab.html">Kitab</a>
+      <a href="sholawat.html">Sholawat</a>
+      <a href="nadzom.html">Nadzom</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+  </header>
+<body>
+  <main>
+    <div id="sholawat-list"></div>
+  </main>
+  <footer>&copy; 2025 Majelis Qutbil Anfas</footer>
+  <script src="js/script.js"></script>
+  <script>
+    loadExpandableList('data/sholawat.json', 'sholawat-list');
+  </script>
+</body>
+</html>
