@@ -1,0 +1,61 @@
+/* base.css: Tampilan dasar islami */
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* putih bersih */
+  color: #2c3e50; /* abu tua */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #2e7d32; /* hijau islami */
+  color: white;
+  text-align: center;
+  padding: 1.2em 0;
+  border-bottom: 4px solid #ffd700; /* garis emas di bawah header */
+}
+
+nav.navbar {
+  background-color: #388e3c; /* hijau sedikit lebih terang */
+  padding: 0.5em 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffd700; /* efek hover warna emas */
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: auto;
+  border-top: 3px solid #ffd700;
+}

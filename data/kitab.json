@@ -1,0 +1,12 @@
+{
+  "kitab": [
+    {
+      "judul": "Kitab Tauhid",
+      "link_pdf": "https://example.com/kitab-tauhid.pdf"
+    },
+    {
+      "judul": "Adab Majelis",
+      "deskripsi": "Kitab ini membahas tentang adab dalam menghadiri majelis ilmu dan etika belajar."
+    }
+  ]
+}
